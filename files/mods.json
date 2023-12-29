@@ -24,6 +24,11 @@
                 "link": "https://sk1er.club/mods/text_overflow_scroll"
             },
             {
+                "icon": "microcontrollers.png",
+                "text": "QuickQuit",
+                "link": "https://modrinth.com/mod/quickquit"
+            },
+            {
                 "icon": "tgb_icon.png",
                 "text": "OptiBye",
                 "link": "https://discord.gg/jRhkYFmpCa"
@@ -43,7 +48,12 @@
         "file": "Scrollable Tooltips-1.4 (1.8.9).jar",
         "url": "https://static.sk1er.club/repo/mods/text_overflow_scroll/1.4/1.8.9/Scrollable%20Tooltips-1.4%20(1.8.9).jar",
         "forge_id": "text_overflow_scroll",
-        "packages": ["optibye", "polysprint", "hypixel_auto_complete"],
+        "packages": [
+            "quickquit",
+            "optibye",
+            "polysprint",
+            "hypixel_auto_complete"
+        ],
         "hash": "05cc200b46c6eea4d918300aacd74ea1"
     },
     {
@@ -820,10 +830,10 @@
             }
         ],
         "categories": ["2;All Skyblock", "3;For Dungeons"],
-        "file": "Partly.Sane.Skies-beta-v0.5.2.jar",
-        "url": "https://github.com/PartlySaneStudios/partly-sane-skies/releases/download/beta-v0.5.2/Partly.Sane.Skies-beta-v0.5.2.jar",
+        "file": "Partly.Sane.Skies-beta-v0.5.3.jar",
+        "url": "https://github.com/PartlySaneStudios/partly-sane-skies/releases/download/beta-v0.5.3/Partly.Sane.Skies-beta-v0.5.3.jar",
         "forge_id": "partlysaneskies",
-        "hash": "d83598392ff16377ac80053a1208a86f"
+        "hash": "1c3402016077bbeef6ee81f71614dcad"
     },
     {
         "id": "apec",
@@ -1104,10 +1114,10 @@
             }
         ],
         "categories": ["1;Recommended"],
-        "file": "OverflowAnimations-1.8.9-forge-2.1.0.jar",
-        "url": "https://cdn.modrinth.com/data/4Hfmgaef/versions/DzqG8tlY/OverflowAnimations-1.8.9-forge-2.1.0.jar",
+        "file": "OverflowAnimations-1.8.9-forge-2.1.1.jar",
+        "url": "https://cdn.modrinth.com/data/4Hfmgaef/versions/1ONr2RBg/OverflowAnimations-1.8.9-forge-2.1.1.jar",
         "forge_id": "overflowanimations",
-        "hash": "3fb27dc74b5937aaf1742f3881ee5268"
+        "hash": "f48c496115a5f3034f5169f3d0e3ca41"
     },
     {
         "id": "oam",
@@ -1509,6 +1519,29 @@
         "hash": "b334cd4cb15e3610ac47387a66c19dfb"
     },
     {
+        "id": "resourcify",
+        "display": "Resourcify",
+        "creator": "DeDiamondPro",
+        "description": "Adds an in-game downloader and updater for Modrinth resource packs and shaders.",
+        "icon": "resourcify.png",
+        "actions": [
+            {
+                "icon": "github.png",
+                "text": "GitHub",
+                "link": "https://github.com/DeDiamondPro/Resourcify"
+            },
+            {
+                "icon": "modrinth.png",
+                "text": "Modrinth",
+                "link": "https://modrinth.com/mod/resourcify"
+            }
+        ],
+        "file": "Resourcify (1.8.9-forge)-1.2.1.1.jar",
+        "url": "https://cdn.modrinth.com/data/RLzHAoZe/versions/6MUjiLfy/Resourcify%20%281.8.9-forge%29-1.2.1.1.jar",
+        "forge_id": "resourcify",
+        "hash": "b6f7c5bc5372c228f6d419b9f4839b3c6"
+    },
+    {
         "id": "controlling",
         "display": "GUI Bundle",
         "description": "Adds more options in controls menu to make it easier to navigate.",
@@ -1531,6 +1564,36 @@
         "url": "https://static.sk1er.club/repo/mods/popup_events/1.3.2/1.8.9/Popup%20Events-1.3.2%20(1.8.9).jar",
         "forge_id": "popup_events",
         "hash": "7c780fa81a62b500d33bb8210bcbc9a0"
+    },
+    {
+        "id": "quickquit",
+        "display": "QuickQuit",
+        "hidden": true,
+        "creator": "Microcontollers",
+        "discordcode": "rejfv9kFJj",
+        "description": "Allows closing Minecraft during the Forge resource loading screen when starting the game.",
+        "icon": "microcontrollers.png",
+        "actions": [
+            {
+                "icon": "github.png",
+                "text": "Github",
+                "link": "https://github.com/MicrocontrollersDev/QuickQuit"
+            },
+            {
+                "icon": "modrinth.png",
+                "text": "Modrinth",
+                "link": "https://modrinth.com/mod/quickquit"
+            },
+            {
+                "icon": "discordsmall.png",
+                "text": "Discord",
+                "link": "https://discord.gg/rejfv9kFJj"
+            }
+        ],
+        "file": "QuickQuit-1.0.0.jar",
+        "url": "https://cdn.modrinth.com/data/uhBpdFWZ/versions/wR5cqWTi/QuickQuit-1.0.0.jar",
+        "forge_id": "quickquit",
+        "hash": "03e64e8afdce96fa3998bb706e295a00"
     },
     {
         "id": "optibye",
